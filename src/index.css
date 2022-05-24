@@ -24,8 +24,8 @@ code {
 }
 
 .nav-navitem{
-  border: solid rgb(8, 110, 13) 2px;
-  border-radius: 15px;
+  /* border: solid rgb(8, 110, 13) 2px;
+  border-radius: 15px; */
   padding: 10px 20px;
   margin: 5px;
   color: rgb(8, 110, 13);
@@ -37,6 +37,7 @@ code {
 }
 
 #nav-search{
+  justify-content: right;
   flex-grow: 1;
   padding: 5px 0px;
   margin: 5px;
