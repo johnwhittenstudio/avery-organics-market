@@ -47,8 +47,8 @@ Avery's Organics is a mid-sized farm in Northern Oregon that grows organic produ
 
 ## Contact <a id="contact"></a>
 
-Amy Young - [Email](mailto:youngamy1223@gmail.com) • [LinkedIn](https://www.linkedin.com/in/amy-young-music/) • [GitHub](https://github.com/y0ung4my)
-Chris Depastene - [Email](mailto:cdepastene@gmail.com) • [LinkedIn](https://www.linkedin.com/in/christopherdepastene/) • [GitHub](https://github.com/chrisdfghjkl)
+Amy Young - [Email](mailto:youngamy1223@gmail.com) • [LinkedIn](https://www.linkedin.com/in/amy-young-music/) • [GitHub](https://github.com/y0ung4my) <br>
+Chris Depastene - [Email](mailto:cdepastene@gmail.com) • [LinkedIn](https://www.linkedin.com/in/christopherdepastene/) • [GitHub](https://github.com/chrisdfghjkl) <br>
 John Whitten - [Email](mailto:johnwhitten.studio@gmail.com) • [LinkedIn](https://www.linkedin.com/in/johnwhitten-studio/) • [GitHub](https://github.com/johnwhittenstudio)
 
 ## License <a id="license"></a>
