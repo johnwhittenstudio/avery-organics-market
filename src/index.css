@@ -12,6 +12,43 @@ code {
     monospace;
 }
 
+/* NavBar */
+.nav-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#nav-navbar{
+  flex-grow: 1;
+  display: flex;
+}
+
+.nav-navitem{
+  border: solid rgb(8, 110, 13) 2px;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 5px;
+  color: rgb(8, 110, 13);
+  text-decoration: none;
+}
+
+#nav-space{
+  flex-grow: 3;
+}
+
+#nav-search{
+  flex-grow: 1;
+  padding: 5px 0px;
+  margin: 5px;
+}
+
+#nav-input {
+  border-radius: 30px;
+  padding: 5px 10px;
+  border: solid cornflowerblue 2px;
+}
+
+/* Header */
 #header-emoji {
   max-width: 50px;
 }
