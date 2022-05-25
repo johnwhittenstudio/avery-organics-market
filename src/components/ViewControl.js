@@ -3,8 +3,7 @@
 import React from 'react';
 import MarketSchedule from './MarketSchedule';
 import AvailableProduce from './AvailableProduce';
-// import Schedule from './Schedule';
-// import Produce from './Produce';
+
 
 class ViewControl extends React.Component {
 
@@ -12,9 +11,7 @@ class ViewControl extends React.Component {
     super(props);
     this.state = {
       produceVisibleOnPage: false,
-      // mainTicketList: []
     };
-    // this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick = () => {
@@ -23,13 +20,6 @@ class ViewControl extends React.Component {
     }));
   }
 
-  // handleAddingNewTicketToList = (newTicket) => {
-  //   const newMainTicketList = this.state.mainTicketList.concat(newTicket);
-  //   this.setState({
-  //     mainTicketList: newMainTicketList,
-  //     formVisibleOnPage: false 
-  //   });
-  // }
 
   render(){
     let currentlyVisibleState = null;
@@ -43,8 +33,8 @@ class ViewControl extends React.Component {
     }
     return (
       <React.Fragment>
-        {currentlyVisibleState}
         <button id="button" onClick={this.handleClick}>{buttonText}</button> 
+        {currentlyVisibleState}
       </ React.Fragment>
     );
   }
