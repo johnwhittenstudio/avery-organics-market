@@ -14,7 +14,7 @@ const availableProduce = [
         "Potatoes",
         "Turnips"
      ]
-  },
+   },
   {  
      month: "February",
      selection: [  
