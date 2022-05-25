@@ -43,13 +43,18 @@ const marketSchedule = [
  function MarketSchedule(){
   return (
     <React.Fragment>
+       <h2 id="schedule-header">Weekly Schedule</h2>
+       <div id="schedule-card-holder">
       {marketSchedule.map((schedule, index) =>
-        <Schedule day={schedule.day}
-          location={schedule.location}
-          hours={schedule.hours}
-          booth={schedule.booth}
-          key={index}/>
+         <div class="schedule-card">
+         <Schedule day={schedule.day}
+            location={schedule.location}
+            hours={schedule.hours}
+            booth={schedule.booth}
+            key={index}/>
+          </div>
       )}
+      </div>
     </React.Fragment>
   );
 }

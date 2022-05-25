@@ -273,11 +273,16 @@ const availableProduce = [
 function AvailableProduce(){
   return (
     <React.Fragment>
+      <h2 id="produce-header">Available Schedule</h2>
+       <div id="produce-card-holder">
       {availableProduce.map((produce, index) =>
+         <div class="produce-card">
         <Produce month={produce.month}
           selection={produce.selection}
           key={index}/>
+          </div>
       )}
+      </div>
     </React.Fragment>
   );
 }

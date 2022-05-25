@@ -7,7 +7,7 @@ function Schedule(props){
       <h3>On {props.day}s we'll be located at {props.location}</h3>
         <p><em>From {props.hours}</em></p>
         <p><em>At booth {props.booth}</em></p>
-      <hr/>
+      {/* <hr/> */}
     </React.Fragment>
   );
 }
