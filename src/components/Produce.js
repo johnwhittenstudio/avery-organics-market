@@ -4,13 +4,13 @@ import PropTypes from "prop-types";
 function Produce(props){
   return (
     <React.Fragment>
-      <h3>{props.month}'s produce</h3>
+      <h4>{props.month}'s produce</h4>
       <ul>
         {props.selection.map(crop => {
           return <li>{crop}</li>
         })}
       </ul>
-      <hr/>
+      {/* <hr/> */}
     </React.Fragment>
   );
 }

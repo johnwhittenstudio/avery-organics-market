@@ -1,21 +1,47 @@
 import React from "react";
-import pepperImage from "./../img/hot-pepper.png";
-import cornImage from "./../img/corn.png";
-import onionImage from "./../img/onion.png";
-import mushroomImage from "./../img/mushroom.png";
-import grapesImage from "./../img/grapes.png";
-import potatoImage from "./../img/potato.png";
+import seedlingImage from "./../img/seedling.png";
 
-function Header(){
+function Header() {
   return (
     <React.Fragment>
-      <h1>Avery's Organics</h1>
-      <img id="header-emoji" src={pepperImage} alt="hot pepper" />
-      <img id="header-emoji" src={cornImage} alt="corn" />
-      <img id="header-emoji" src={onionImage} alt="onion" />
-      <img id="header-emoji" src={mushroomImage} alt="mushroom" />
-      <img id="header-emoji" src={grapesImage} alt="grapes" />
-      <img id="header-emoji" src={potatoImage} alt="potato" />
+      <>
+        <nav id="header" class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <h2><strong>Avery's Organic Farm</strong><img id="header-emoji" src={seedlingImage} alt="leafy greens" /></h2>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#schedule"
+                  >
+                    Schedule
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#produce">
+                    Produce
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </>
     </React.Fragment>
   );
 }

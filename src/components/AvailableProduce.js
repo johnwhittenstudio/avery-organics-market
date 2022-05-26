@@ -273,7 +273,7 @@ const availableProduce = [
 function AvailableProduce(){
   return (
     <React.Fragment>
-      <h2 id="produce-header">Available Schedule</h2>
+      <h2 id="produce-header">Produce Schedule</h2>
        <div id="produce-card-holder">
       {availableProduce.map((produce, index) =>
          <div class="produce-card">

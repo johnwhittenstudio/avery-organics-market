@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function Schedule(props){
   return (
     <React.Fragment>
-      <h3>On {props.day}s we'll be located at {props.location}</h3>
+      <h5>On {props.day}s we'll be located at {props.location}</h5>
         <p><em>From {props.hours}</em></p>
         <p><em>At booth {props.booth}</em></p>
       {/* <hr/> */}

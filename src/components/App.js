@@ -1,18 +1,18 @@
 import React from "react";
-import NavBar from "./NavBar";
+// import NavBar from "./NavBar";
 import Header from "./Header";
-import AvailableProduce from "./AvailableProduce";
-import MarketSchedule from "./MarketSchedule";
 import ViewControl from "./ViewControl";
+// import Footer from "./Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App(){
   return (
     <React.Fragment>
-      <NavBar />
-      <Header />
-      {/* <MarketSchedule />
-      <AvailableProduce /> */}
-      <ViewControl />
+      <div className="container">
+        <Header />
+        <ViewControl />
+        {/* <Footer /> */}
+      </div>
     </React.Fragment>
   )
 }

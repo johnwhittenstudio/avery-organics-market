@@ -52,7 +52,7 @@ const marketSchedule = [
             hours={schedule.hours}
             booth={schedule.booth}
             key={index}/>
-          </div>
+         </div>
       )}
       </div>
     </React.Fragment>
