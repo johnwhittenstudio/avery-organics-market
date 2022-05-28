@@ -19,6 +19,8 @@ _May 23, 2022_
 
 Avery's Organics is a mid-sized farm in Northern Oregon that grows organic produce and sells it at farmers markets throughout town. Since Avery's is at a different market almost every day, they've started a website to show customers which market they will be at on a given day.
 
+<img src="./src/img/web-demo.gif">
+
 ## Website Components Planning
 
 <img src="./src/img/market_diagram.png">

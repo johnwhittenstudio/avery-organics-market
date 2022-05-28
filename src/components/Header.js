@@ -8,7 +8,7 @@ function Header() {
         <nav id="header" class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <h2><strong>Avery's Organic Farm</strong><img id="header-emoji" src={seedlingImage} alt="leafy greens" /></h2>
+              <h2><strong>Avery's Organic Farm</strong>&nbsp;<img id="header-emoji" src={seedlingImage} alt="leafy greens" /></h2>
             </a>
             <button
               class="navbar-toggler"
